@@ -1,0 +1,80 @@
+$date
+	Thu Sep  1 14:07:53 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux_4_1_logic_tb $end
+$var wire 1 ! Y $end
+$var reg 1 " EN $end
+$var reg 4 # IN [3:0] $end
+$var reg 2 $ S [1:0] $end
+$scope module uut $end
+$var wire 1 " EN $end
+$var wire 4 % IN [3:0] $end
+$var wire 2 & S [1:0] $end
+$var wire 1 ! Y $end
+$var wire 1 ' x0 $end
+$var wire 1 ( x1 $end
+$var wire 1 ) x2 $end
+$var wire 1 * x3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+0)
+0(
+1'
+b0 &
+b11 %
+b0 $
+b11 #
+1"
+1!
+$end
+#1000
+0'
+1(
+b1 $
+b1 &
+#2000
+0!
+0(
+b10 $
+b10 &
+#3000
+b11 $
+b11 &
+#4000
+b0 $
+b0 &
+b100 #
+b100 %
+#5000
+1(
+1!
+0'
+b1 $
+b1 &
+b111 #
+b111 %
+#6000
+0!
+0(
+b10 $
+b10 &
+b10 #
+b10 %
+#7000
+1!
+1*
+b11 $
+b11 &
+b1000 #
+b1000 %
+#8000
